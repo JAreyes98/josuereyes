@@ -1,3 +1,7 @@
+CREATE DATABASE [Northwind];
+GO
+USE [Northwind];
+GO
 CREATE TABLE "Customers" (
 	"CustomerID" nchar (5) NOT NULL ,
 	"CompanyName" nvarchar (40) NOT NULL ,
